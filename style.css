@@ -16,10 +16,10 @@ body {
     text-align: center;
 }
 
-/* Sembunyikan kandungan utama pada mulanya */
 .main-content {
     display: none;
-    position: relative; /* Untuk butang-butang di bawah */
+    position: relative;
+    padding-bottom: 80px; /* Space for the button bar */
 }
 
 .opening-card {
@@ -48,7 +48,6 @@ body {
     background-color: #4a322c;
 }
 
-/* Gaya untuk kandungan utama */
 .container {
     background: #fff;
     padding: 40px;
@@ -132,7 +131,6 @@ body {
     display: block;
 }
 
-/* Gaya untuk bar butang di bawah */
 .button-bar {
     position: fixed;
     bottom: 0;
