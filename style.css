@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f8f5f0;
+    color: #444;
+}
+
+.opening-card, .main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Sembunyikan kandungan utama pada mulanya */
+.main-content {
+    display: none;
+    position: relative; /* Untuk butang-butang di bawah */
+}
+
+.opening-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.open-button {
+    padding: 12px 30px;
+    background-color: #5d4037;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.open-button:hover {
+    background-color: #4a322c;
+}
+
+/* Gaya untuk kandungan utama */
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.the-wedding-of {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #8c735d;
+    margin-bottom: 0;
+}
+
+.names {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #5d4037;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.date-header {
+    font-size: 1.1em;
+    color: #8c735d;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.section-divider {
+    border-bottom: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #5d4037;
+    margin-bottom: 10px;
+}
+
+.doa {
+    font-style: italic;
+    color: #666;
+    line-height: 1.6;
+}
+
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.countdown-timer div {
+    background: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    min-width: 60px;
+    text-align: center;
+}
+
+.countdown-timer .value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #5d4037;
+}
+
+.countdown-timer .label {
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Gaya untuk bar butang di bawah */
+.button-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fdfaf5;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.icon-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #5d4037;
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+.icon-button i {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
